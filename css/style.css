@@ -20,10 +20,9 @@ main {
   text-align: center;
 }
 .part-1 {
-  background-position: 200px 200px;
+  background-position: 100%;
   background-image: url(/images/banner.jpg);
   padding-block: 50px;
-  background-position: 100%;
 }
 .part-1 h1 {
   font-family: "Montserrat", sans-serif;
@@ -121,8 +120,9 @@ h3 {
   color: rgba(255, 255, 255, 0.596);
 }
 .part-5 ul {
+  width: 100%;
   padding-bottom: 20px;
-  marker: none;
+  list-style-type: none;
 }
 .part-5 hr {
   visibility: visible;
