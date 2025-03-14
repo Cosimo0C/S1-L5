@@ -50,6 +50,10 @@ main {
   font-size: 20px;
   padding-block: 70px;
 }
+hr {
+  clear: both;
+  visibility: hidden;
+}
 div h2 {
   color: rgb(71, 163, 199);
   font-family: "Montserrat", sans-serif;
@@ -57,8 +61,47 @@ div h2 {
   margin-bottom: 10px;
 }
 
-div img {
+.part-2 img {
   width: 100%;
   border-radius: 50%;
   padding-block: 25px;
+}
+.part-3 {
+  background-color: #e22d0e;
+  padding-block: 50px;
+}
+.part-3 h2 {
+  color: white;
+  font-size: 30px;
+}
+.part-3 h3,
+h4 {
+  color: white;
+  font-size: 20px;
+}
+.part-3 h4 {
+  font-size: 25px;
+}
+.part-3 p {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.part-4 {
+  margin: 20px;
+  padding-block: 80px;
+}
+.part-4 img {
+  width: 100%;
+  border-width: 1px;
+}
+.part-4 div {
+  margin: 0;
+  border-style: solid;
+  border-color: #dee1e3;
+  border-width: 1px;
+  margin-top: 30px;
+}
+.part-4 p {
+  padding-bottom: 15px;
 }
