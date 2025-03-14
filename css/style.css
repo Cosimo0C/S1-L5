@@ -1,0 +1,64 @@
+/* Your styles here */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,800&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+  max-width: 450px;
+  margin: 0;
+  color: #393d41;
+  line-height: 1.65;
+}
+header {
+  background-color: black;
+  padding-block: 40px;
+  text-align: center;
+}
+header img {
+  max-width: 150px;
+}
+main {
+  text-align: center;
+}
+.part-1 {
+  background-position: 200px 200px;
+  background-image: url(/images/banner.jpg);
+  padding-block: 50px;
+  background-position: 100%;
+}
+.part-1 h1 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  font-size: 50px;
+  color: rgb(71, 163, 199);
+  margin-bottom: 10px;
+}
+.part-1 p {
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+.part-1 button {
+  background-color: #f04c2f;
+  color: white;
+  width: 150px;
+  height: 50px;
+  border-radius: 7px;
+  border-color: #dee1e3;
+  font-family: "Montserrat", sans-serif;
+}
+.part-2 {
+  margin: 30px;
+  font-size: 20px;
+  padding-block: 70px;
+}
+div h2 {
+  color: rgb(71, 163, 199);
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+div img {
+  width: 100%;
+  border-radius: 50%;
+  padding-block: 25px;
+}
