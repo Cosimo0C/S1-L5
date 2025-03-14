@@ -62,7 +62,7 @@ div h2 {
 }
 
 .part-2 img {
-  width: 100%;
+  width: 80%;
   border-radius: 50%;
   padding-block: 25px;
 }
@@ -104,4 +104,33 @@ h4 {
 }
 .part-4 p {
   padding-bottom: 15px;
+}
+.part-5 {
+  background-color: #25a2c3;
+  padding-block: 50px;
+}
+.part-5 h2 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  font-size: 30px;
+  color: white;
+  margin-bottom: 10px;
+}
+.part-5 a,
+h3 {
+  color: rgba(255, 255, 255, 0.596);
+}
+.part-5 ul {
+  padding-bottom: 20px;
+  marker: none;
+}
+.part-5 hr {
+  visibility: visible;
+  color: #94d0e782;
+  width: 200px;
+}
+.part-5 h4 {
+  padding-block: 20px;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.596);
 }
